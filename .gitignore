@@ -14,3 +14,8 @@ checkpoints/
 *.ckpt
 *.ply
 *.mp4
+
+# Pinned upstream checkouts are local. The SHA list is third_party/PINS.md.
+third_party/*
+!third_party/PINS.md
+!third_party/.gitkeep
