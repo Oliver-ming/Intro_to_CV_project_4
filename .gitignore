@@ -1,0 +1,16 @@
+# Environments and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Data, weights, and experiment outputs stay outside git
+data/
+weights/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.ply
+*.mp4
